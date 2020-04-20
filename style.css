@@ -1,0 +1,107 @@
+/* my own style */
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+/* utility class */
+.container{
+  margin: auto;
+  overflow: auto;
+  max-width: 1000px;
+  padding: 0px 20px;
+}
+.container .text-change{
+  color: #f7c08a;
+}
+.bg-dark{
+  background: #333;
+  color: #fff;
+}
+.clr{
+  clear: both;
+}
+.bg-coral{
+  background: #333;
+  color: #f7c08a;
+}
+/* Main styling */
+#heading {
+  background: #333;
+  color: white;
+  overflow: auto;
+}
+#heading h1{
+  float: left;
+  padding-top: 15px;
+}
+#heading ul {
+  list-style: none;
+  float: right;
+}
+#heading ul li{
+  float: left;
+}
+#heading ul li {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling personal Details */
+#detail{
+  background: url('./img/LagosNigeria.jpg') no-repeat center center/cover;
+  height: 600px;
+}
+#detail .detail-content{
+  color: #fff;
+  text-align: center;
+  padding-top: 140px;
+}
+#detail h1{
+  padding-bottom: 15px;
+  font-size: 40px;
+  line-height: 1.2em;
+}
+#detail h3{
+  padding-bottom: 5px;
+  line-height: 1.2em;
+}
+#detail p{
+  font-size: 18px;
+  padding-bottom: 5px;
+  line-height: 1.7em;
+}
+/* more-info */
+#more-info{
+  height: 400px;
+}
+#more-info .image-info{
+  background: url('./img/me2.jpg') no-repeat center center/cover;
+  float: left;
+  width: 35%;
+  min-height: 100%;
+  padding-top: 15px;
+}
+#more-info .info{
+  float: right;
+  width: 32.5%;
+  text-align: center;
+  padding: 20px;
+}
+#more-info #summary p{
+  padding-bottom: 36px;
+}
+#more-info #list ul{
+  list-style: none;
+  padding-top: 100px;
+  padding-bottom: 125px;
+}
+#main-footer{
+  text-align: center;
+  padding: 20px;
+}
