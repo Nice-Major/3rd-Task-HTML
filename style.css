@@ -54,7 +54,7 @@ html, body {
 
 /* Styling personal Details */
 #detail{
-  background: url('./img/LagosNigeria.jpg') no-repeat center center/cover;
+  background: url('./LagosNigeria.jpg') no-repeat center center/cover;
   height: 600px;
 }
 #detail .detail-content{
@@ -81,7 +81,7 @@ html, body {
   height: 400px;
 }
 #more-info .image-info{
-  background: url('./img/me2.jpg') no-repeat center center/cover;
+  background: url('./me2.jpg') no-repeat center center/cover;
   float: left;
   width: 35%;
   min-height: 100%;
